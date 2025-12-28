@@ -1,0 +1,103 @@
+
+
+.program {
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.55), rgba(0,0,0,0.55)),
+     url('../../assets/program_photo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    border-radius: 16px;
+    position: relative;
+    padding: 60px 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    margin: 80px 0 180px 0;
+  }
+  
+  
+  .program-title {
+    color: #c439b4;
+    font-size: 36px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    font-weight: 500;
+  }
+  
+  .program-card {
+    background-color: #111;
+    border: 2px solid #c439b4;
+    border-radius: 12px;
+    padding: 25px;
+    max-width: 400px;
+    margin: 0 auto 40px auto;
+  }
+  
+  .program-card p {
+    font-size: 18px;
+    margin: 12px 0;
+  }
+  
+  .program-card span {
+    color: #c439b4;
+    font-weight: bold;
+  }
+  
+  .reserve-btn {
+    background-color: #c439b4;
+    color: #fff;
+    border: none;
+    padding: 14px 36px;
+    font-size: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .reserve-btn:hover {
+    background-color: #e05bd0;
+    transform: scale(1.05);
+  }
+
+  
+  /* Responsive – telefoane */
+@media (max-width: 768px) {
+    .program {
+      padding: 40px 15px;
+    }
+  
+    .program-title {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+  
+    .program-card {
+      padding: 20px;
+      max-width: 100%;
+    }
+  
+    .program-card p {
+      font-size: 16px;
+    }
+  
+    .reserve-btn {
+      width: 100%;
+      max-width: 280px;
+      font-size: 16px;
+      padding: 12px 0;
+    }
+  }
+  
+  /* Telefoane foarte mici */
+  @media (max-width: 480px) {
+    .program-title {
+      font-size: 24px;
+    }
+  
+    .program-card p {
+      font-size: 15px;
+    }
+  }
+  
